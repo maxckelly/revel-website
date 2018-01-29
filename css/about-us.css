@@ -24,7 +24,7 @@ a:link {
 }
 
 .revel-icon {
-  margin-right: 830px;
+  margin-right: 820px;
   bottom: 1px;
   float: left;
   overflow: auto;
@@ -52,7 +52,6 @@ a:link {
   margin-right: 60px;
   padding-bottom: 3px;
   color: grey;
-  font-family: "raleway";
   display: inline-block;
 }
 .nav a:hover{
