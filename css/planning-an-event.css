@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: raleway;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5px;
+}
+a {
+  text-decoration: none;
+  font-family: "raleway";
+  color: grey;
+  /* NOTE: the above makes the header buttons a link /w out the underline */
+}
+a:hover {
+  color: #EF6248;
+  /* NOTE: The above code makes it so when the curser is over "click to view" it will light up a different color */
+}
+a:link {
+  text-decoration: none;
+}
+
+.revel-icon {
+  margin-right: 820px;
+  bottom: 1px;
+  float: left;
+  overflow: auto;
+}
+
+.nav {
+  width: 100%;
+  padding-bottom: 3px;
+  padding-top: 20px;
+  margin-top: -10px;
+  border-color: grey;
+  border-width: 0.25px;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow: 0 5px 10px -6px black;
+        box-shadow: 0 5px 10px -6px black;
+  text-align: right;
+  position: fixed;
+  border-style: solid;
+  /* NOTE: this keeps the header fixed when scrolling. */
+  /* NOTE: The above code outlines shadow of header;location of text */
+}
+
+.nav a{
+  margin-right: 60px;
+  padding-bottom: 3px;
+  color: grey;
+  font-family: "raleway";
+  display: inline-block;
+}
+
+.nav a:hover{
+  color: #EF6248;
+}
+
+.nav-2 {
+  margin-top: 55px;
+  width: 100%;
+  padding-left: 10px;
+  border-color: grey;
+  border-width: 0.25px;
+  background-color: grey;
+  border-style: solid;
+  /* NOTE: this keeps the header fixed when scrolling. */
+  /* NOTE: The above code outlines shadow of header;location of text */
+}
+
+.nav-2 a {
+  color: white;
+  margin-left: 10%;
+  padding-left: 20px;
+  font-family: "raleway";
+  font-weight: 700;
+  display: inline;
+  float: left;
+}
+
+h3 {
+  color: #EF6248;
+  font-family: "raleway";
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+.para1 {
+  color: grey;
+  font-family: "raleway";
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+.quote {
+  color: grey;
+  font-size: 15px;
+  font-family: "raleway";
+  font-weight: normal;
+}
+.info {
+  color: #EF6248;
+  margin-top: 20px;
+  font-family: "raleway";
+  font-weight: 550;
+}
+
+.columns {
+  padding-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.column1 {
+  box-shadow: 4px 10px 10px 0 rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  max-width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border: solid thin #F0F0F0;
+  text-align: center;
+  display: inline-table;
+}
+.column1:hover {
+  transform: scale(1.1);
+  /* NOTE: The above enlarges element when hovered */
+}
+
+.column2 {
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2);
+  max-height: 160px;
+  max-width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: inline-table;
+  border: solid thin #F0F0F0;
+}
+.column2:hover {
+  transform: scale(1.1);
+  /* NOTE: The above enlarges element when hovered */
+}
+
+.column3 {
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2);
+  max-height: 160px;
+  max-width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: inline-table;
+  border: solid thin #F0F0F0;
+}
+.column3:hover {
+   transform: scale(1.1);
+   /* NOTE: The above enlarges element when hovered */
+}
+
+.return-home {
+  margin-top: 30px;
+  margin-left: 30px;
+}
