@@ -10,7 +10,7 @@ body {
 }
 a {
   text-decoration: none;
-  font-family: "proxima nova";
+  font-family: "raleway";
   /* NOTE: the above makes the header buttons a link /w out the underline */
 }
 
@@ -52,7 +52,7 @@ a:link {
   margin-right: 60px;
   padding-bottom: 3px;
   color: grey;
-  font-family: "proxima nova";
+  font-family: "raleway";
   font-weight: 700;
   display: inline-block;
 }
@@ -78,7 +78,7 @@ a:link {
   color: white;
   margin-left: 10%;
   padding-left: 20px;
-  font-family: "proxima nova";
+  font-family: "raleway";
   font-weight: 700;
   display: inline;
   float: left;
@@ -97,8 +97,8 @@ a:link {
 
 .title {
   color: grey;
-  font-family: "proxima nova";
-  font-weight: 900;
+  font-family: "raleway";
+  font-weight: 700;
   font-size: 60px;
   padding: 30px;
   margin-left: 20px;
@@ -164,7 +164,7 @@ footer {
 
 .footer-title {
   color: grey;
-  font-family: "proxima nova";
+  font-family: "raleway";
   font-size: 20px;
 }
 
