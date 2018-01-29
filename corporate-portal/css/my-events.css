@@ -1,0 +1,194 @@
+body {
+    background-color: #FFFFFF;
+    font-family: "raleway";
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+ol {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #808080;
+  font-family: "raleway";
+  /* NOTE: the above makes the header buttons a link /w out the underline */
+}
+
+p {
+  font-size: 12px;
+  margin: 0;
+  color: grey;
+  font-weight: lighter;
+}
+
+h5 {
+  font-size: 25px;
+  margin: 0;
+  padding-left: 20px;
+  color:#808080;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: 15px;
+  color: #EF6248;
+  letter-spacing: 1px;
+}
+
+hr {
+  border-top: solid grey 0.25px;
+}
+a:hover {
+  color: #EF6248;
+  /* NOTE: The above code makes it so when the curser is over "click to view" it will light up a different color */
+}
+a:link {
+  text-decoration: none;
+}
+/* a:focus {
+  background-color: #EF6248;
+  /* NOTE: This code changes the color when the text/button has been highlighted witht the TAB key
+}*/
+
+.nav {
+  border-style: solid;
+  border-color: grey;
+  border-width: 0.25px;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow: 0 5px 10px -6px black;
+        box-shadow: 0 5px 10px -6px black;
+  padding-top: 20px;
+  margin-top: -22px;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  /* NOTE: this keeps the header fixed when scrolling. */
+  /* NOTE: The above code outlines shadow of header;location of text */
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 5%;
+  max-width: 50px;
+  max-height: 50px;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  margin-right: 100px;
+  margin-left: 20px;
+  position: relative;
+  top: -10px;
+  float: left;
+/* NOTE: the above does the following to the profile image: Border, poistions it in the middle of the header */
+}
+
+.header-text {
+  padding-top: 5px;
+  padding-right:50px;
+  position: relative;
+  bottom: -10px
+  /* NOTE: The above adds space between the edge of the webpage
+  and the header text */
+}
+
+.head-title {
+  padding-top: 100px;
+  padding-left: 30px;
+  font-family: "raleway";
+  font-weight: normal;
+  color: grey;
+}
+
+.title {
+  color: grey;
+  float: left;
+  padding-left: 30px;
+  font-family: "raleway";
+  font-weight: normal;
+}
+
+/* NOTE: The below is the cards displaying the current events the corporate account has coming up. */
+.events-around-you {
+  margin-top: 20px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+}
+
+.cards {
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-right: 30px;
+  margin-top: 70px;
+}
+
+.card img {
+  bottom: 5px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card {
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-height: 160px;
+  max-width: 300px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  display: inline-table;
+}
+.card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        /* NOTE: adds a deeper shadow when hovering over */
+}
+
+.cardTitle {
+  color: #EF6248;
+  font-family: "raleway";
+  font-size: 20px;
+}
+
+.description {
+  color: grey;
+  font-size: 10px;
+  font-family: "raleway";
+  margin-top: 10px;
+  margin-bottom: 5px;
+  float: none;
+}
+
+.create-your-next-event {
+  padding-top: 100px;
+}
+.button {
+    z-index: 1;
+    width: 100%;
+    letter-spacing: 1.2px;
+    padding: 20px 200px;
+    font-weight: 600;
+    font-family: "proxima nova";
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block;
+}
+.button:focus {
+    outline: none;
+}
+.button--primary {
+  color: #EF6248;
+}
+.button--border {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+.button:hover {
+   color: white;
+   background: #EF6248;
+}

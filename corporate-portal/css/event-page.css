@@ -1,0 +1,315 @@
+
+body {
+    background-color: white;
+    font-family: 'raleway';
+    margin: 0;
+    letter-spacing: 1px;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+ol {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #808080;
+  /* NOTE: the above makes the header buttons a link /w out the underline */
+}
+p {
+  font-size: 12px;
+  margin: 0;
+  color: grey;
+  font-weight: lighter;
+}
+
+h5 {
+  font-size: 25px;
+  margin: 0;
+  padding-left: 20px;
+  color:#808080;
+  font-weight: normal;
+}
+h6 {
+  font-size: 15px;
+  color: #EF6248;
+  letter-spacing: 1px;
+
+}
+hr {
+  border-top: solid grey 0.25px;
+}
+a:hover {
+  color: #EF6248;
+  /* NOTE: The above code makes it so when the curser is over "click to view" it will light up a different color */
+}
+a:link {
+  text-decoration: none;
+}
+/* a:focus {
+  background-color: #EF6248;
+  /* NOTE: This code changes the color when the text/button has been highlighted witht the TAB key
+}*/
+.img-cover {
+
+}
+.event-img {
+  filter: brightness(60%);
+  position: ;
+}
+
+.event-name {
+  color: white;
+  bottom: 600px;
+  left: 50px;
+  font-family: "raleway";
+  font-size: 70px;
+  position: absolute;
+
+}
+
+.nav-2 {
+  margin-top: -10px;
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow: 0 5px 10px -6px black;
+        box-shadow: 0 5px 10px -6px black;
+  border-width: 0.25px;
+  border-style: solid;
+  /* NOTE: this keeps the header fixed when scrolling. */
+  /* NOTE: The above code outlines shadow of header;location of text */
+}
+
+.tabcontent{
+  animation: fadeEffect 1s; /* NOTE: This adds a fade for 1second */
+}
+
+.tablinks{
+  color: grey;
+  margin-left: 18%;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "raleway";
+  display: inline;
+  cursor: pointer; /* NOTE: This turns a cursor into a pointer */
+  border: none;
+  float: left;
+}
+.tablinks:focus{
+  outline: 0;
+}
+.tablinks:hover{
+  color: #EF6248;
+}
+.tablinks.active {
+  color: #EF6248; /* NOTE: When button is active color is changed. */
+}
+
+.event_details {
+  margin-left: 150px;
+}
+
+.title {
+  text-align: center;
+  font-family: "raleway";
+  color: #EF6248;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.event-wording {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* NOTE: the below is for the Description box */
+.box {
+  width: 85%;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow: 0 5px 10px -6px black;
+        box-shadow: 0 5px 10px -6px black;
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  border: solid thin #F0F0F0;
+}
+.box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  /* NOTE: adds a deeper shadow when hovering over */
+}
+
+/* NOTE: The below code is for the event details box. Box2 is for a thin title only box */
+.box-2 {
+  width: 85%;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow: 0 5px 10px -6px black;
+        box-shadow: 0 5px 10px -6px black;
+  margin-top: 50px;
+  padding-top: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 1px;
+  border: solid thin #F0F0F0;
+}
+/* NOTE:
+.box-2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  /* NOTE: adds a deeper shadow when hovering over
+}
+ */
+
+/* NOTE: this is the code for the small little boxes. */
+.box-3 {
+  width: 23.3%;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow: 0 5px 10px -6px black;
+        box-shadow: 0 5px 10px -6px black;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-right: 30px;
+  border: solid thin #F0F0F0;
+}
+
+.box-3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  /* NOTE: adds a deeper shadow when hovering over */
+}
+
+.box-tickets {
+  width: 38.7%;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow: 0 5px 10px -6px black;
+        box-shadow: 0 5px 10px -6px black;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
+  margin-right: 30px;
+  border: solid thin #F0F0F0;
+}
+    .title-tickets {
+      text-align: left;
+      position: relative;
+      font-family: "raleway";
+      color: #EF6248;
+      font-weight: normal;
+      font-size: 20px;
+      top: 8px;
+    }
+
+    .event-wording-tickets {
+      text-align: right;
+      float: right;
+      position: relative;
+      font-size: 15px;
+      right: 50px;
+      bottom: 24px;
+    }
+    .edit {
+      font-family:"raleway";
+      font-weight: bold;
+      text-align: right;
+      float: right;
+      position: relative;
+      font-size: 15px;
+      bottom: 24px;
+      left: 125px;
+    }
+.box-tickets:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      /* NOTE: adds a deeper shadow when hovering over */
+    }
+#eventAttendees {
+  /* NOTE: this allows for a scroll effect to happen only within the class. */
+}
+.searchBar {
+  margin-left: 15px;
+  margin-top: 30px;
+  width: 200px;
+  height: 20px;
+  border: lightgrey solid 1px;;
+  text-decoration: none;
+  text-align: center;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow:   0 5px 10px -6px black;
+        box-shadow:   0 5px 10px -6px black;
+}
+.searchBar:hover {
+  transform: scale(1.05);
+}
+.searchBar:focus {
+  outline: none;
+}
+
+
+/* NOTE: The below is for the side bar in the "attendees" tab */
+.sideBar {
+  padding-bottom: 300px;
+  width: 230px;
+  background-color: white;
+  box-shadow: 10px;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow:   0 5px 10px -6px black;
+        box-shadow:   0 5px 10px -6px black;
+  border-right: solid grey 0.5px;
+  border-top:   solid grey 0.5px;
+  border-left:  solid grey 0.5px;
+  position: absolute;
+  overflow: scroll;
+}
+
+.sideBar li {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 30px;
+  vertical-align: middle;
+  text-decoration: none;
+  display: table; /* NOTE: Display:table organsises content in a table format. */
+}
+.sideBar hr {
+  width: 200px;
+  border-top: 1px solid lightgrey;
+}
+
+.profile-image {
+  border-radius: 60%;
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+  border-color: grey;
+  border-width: thin;
+  vertical-align: middle;
+  border-style: solid;
+/* NOTE: the above does the following to the profile image: Border, poistions it in the middle of the header */
+}
+
+
+.return-home {
+  color: grey;
+  font-family: "raleway";
+  margin-left: 40%;
+}
+
+
+footer {
+  padding: 100px;
+}

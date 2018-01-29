@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: raleway;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5px;
+}
+a {
+  text-decoration: none;
+  font-family: "proxima nova";
+  /* NOTE: the above makes the header buttons a link /w out the underline */
+}
+
+a:hover {
+  color: #EF6248;
+  /* NOTE: The above code makes it so when the curser is over "click to view" it will light up a different color */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.revel-icon {
+  margin-right: 830px;
+  bottom: 1px;
+  float: left;
+  overflow: auto;
+}
+
+.nav {
+  width: 100%;
+  padding-bottom: 3px;
+  padding-top: 20px;
+  margin-top: -10px;
+  border-color: grey;
+  border-width: 0.25px;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px -6px black;
+   -moz-box-shadow: 0 5px 10px -6px black;
+        box-shadow: 0 5px 10px -6px black;
+  text-align: right;
+  position: fixed;
+  border-style: solid;
+  /* NOTE: this keeps the header fixed when scrolling. */
+  /* NOTE: The above code outlines shadow of header;location of text */
+}
+
+.nav a{
+  margin-right: 60px;
+  padding-bottom: 3px;
+  color: grey;
+  font-family: "proxima nova";
+  font-weight: 700;
+  display: inline-block;
+}
+.nav a:hover{
+  color: #EF6248;
+}
+
+.nav-2 {
+  margin-top: 55px;
+  width: 100%;
+  padding-left: 10px;
+  border-color: grey;
+  border-width: 0.25px;
+  background-color: grey;
+  border-style: solid;
+  /* NOTE: this keeps the header fixed when scrolling. */
+  /* NOTE: The above code outlines shadow of header;location of text */
+}
+.nav-2 a {
+  color: white;
+  margin-left: 10%;
+  padding-left: 20px;
+  font-family: "proxima nova";
+  font-weight: 700;
+  display: inline;
+  float: left;
+}
+
+.title {
+  color: #EF6248;
+  margin-left: 100px;
+  font-family: "proxima nova";
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.para {
+  color: grey;
+  margin-left: 100px;
+  padding-bottom: 100px;
+  font-family: "raleway";
+}
+
+
+
+
+
+
+
+footer {
+  border-top: solid lightgrey 0.5px;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 150px;
+ }
+
+.footer {
+  padding-left: 260px;
+  padding-top: 30px;
+}
+.footer-links {
+   color: grey;
+ }
+.footer-links {
+   display:grid;
+ }
+.footer-links:hover {
+   color: #EF6248;
+ }
+
+.footer-title {
+  color: grey;
+  font-family: "proxima nova";
+  font-size: 20px;
+}
+
+.col-1 {
+  display: inline-table;
+  padding-left: 0px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.col-2 {
+  display: inline-table;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.col-3 {
+  display: inline-table;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.col-4 {
+  display: inline-table;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.footer2 {
+  display: inline;
+}
+
+.footer-logo {
+  margin-left: 15%;
+}
+
+.copyright {
+  margin-left: 25%;
+  position: relative;
+  bottom: 70px;
+}
+
+.terms-policy {
+  color: grey;
+  left: 70%;
+  bottom: 107px;
+  padding-left: 10px;
+  position: relative;
+  display: inline;
+}
+
+.social-icons {
+  float: right;
+  position: relative;
+  display: inline;
+  margin-right: 200px;
+  bottom: 144px;
+}
