@@ -95,7 +95,7 @@ a:link {
 /* NOTE: Begin creating event */
 .coverscreen {
     font-family: "raleway";
-    font-weight: 600;
+    font-weight: 500;
     color: grey;
     margin-left: 450px;
     padding-top: 100px;
@@ -202,7 +202,7 @@ footer {
 .footer-title {
   color: grey;
   font-family: "raleway";
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 20px;
 }
 
@@ -235,7 +235,7 @@ footer {
 
 .col-4 {
   display: inline-table;
-  padding-left: 150px;
+  padding-left: 80px;
   padding-right: 30px;
   padding-bottom: 30px;
   padding-top: 30px;
