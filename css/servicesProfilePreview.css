@@ -79,11 +79,18 @@
 
 }
 
-body {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  font-family: "raleway";
+body, html {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFFFFF;
+  letter-spacing: 1.5px;
+  font-family: 'raleway', Arial, sans-serif;
+  position: fixed;
+  overflow-y: scroll;
 }
 
 a {
@@ -107,7 +114,7 @@ a:hover {
 
 .headingBlock {
   position: absolute;
-  left: 35%;
+  margin-left: 32%;
   bottom: 15%;
   padding-left: 60px;
   padding-right: 60px;
@@ -142,7 +149,8 @@ a:hover {
   margin-top: 150px;
 }
 .icons img {
-  padding-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .description {
@@ -214,7 +222,7 @@ a:hover {
 
 .reviews {
   margin-top: 300px;
-  margin-left: 20px;
+  padding-left: 20px;
   padding-bottom: 100px;
   padding-right: 30px;
   overflow-x: scroll;
@@ -250,7 +258,7 @@ a:hover {
 /* NOTE: Below is footer */
 
 .colums {
-  margin-left: 350px;
+  margin-left: 250px;
 }
 
 .col {
@@ -266,4 +274,10 @@ a:hover {
   padding-bottom: 5px;
   color: grey;
   list-style-type: none;
+}
+
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
 }

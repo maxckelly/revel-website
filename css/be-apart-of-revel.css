@@ -79,19 +79,21 @@
 
 }
 
-* {
-  box-sizing: border-box;
-}
-body {
+body, html {
     background-color: #FFFFFF;
-    font-family: "raleway";
+    font-family: 'raleway', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     letter-spacing: 1.5px;
 }
 a {
   text-decoration: none;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   color: grey;
   /* NOTE: the above makes the header buttons a link /w out the underline */
 }
@@ -105,48 +107,49 @@ a:link {
 
 /* NOTE: the below is for the navigation bar. */
 
+/* NOTE: Navigation */
 .revel-icon {
-  margin-right: 820px;
+  margin-top: 10px;
   bottom: 1px;
-  float: left;
-  overflow: auto;
+  margin-left: 30px;
 }
 
-.nav {
+.nav-1 {
+  padding-bottom: 5px;
   width: 100%;
-  padding-bottom: 3px;
-  padding-top: 20px;
-  margin-top: -10px;
-  border-color: grey;
-  border-width: 0.25px;
+  border: solid thin #F0F0F0;
   background-color: white;
   -webkit-box-shadow: 0 5px 10px -6px black;
    -moz-box-shadow: 0 5px 10px -6px black;
         box-shadow: 0 5px 10px -6px black;
-  text-align: right;
-  position: fixed;
-  border-style: solid;
   z-index: 2;
+  position: sticky;
+  top: 0;
   /* NOTE: this keeps the header fixed when scrolling. */
   /* NOTE: The above code outlines shadow of header;location of text */
 }
-
-.nav a{
-  margin-right: 60px;
-  padding-bottom: 3px;
+.nav-1 a {
   color: grey;
-  font-family: "raleway";
-  display: inline-block;
 }
-
-.nav a:hover{
+.list-inline-nav-1 {
+  float: right;
+  margin-right: 30px;
+}
+.nav-1-li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 30px;
+  color: grey;
+}
+.nav-1 a:hover{
   color: #EF6248;
 }
 
+/* NOTE: BELOW IS THE SECOND NAVIGATION BAR */
+
 .nav-2 {
-  margin-top: 55px;
+  padding-bottom: 50px;
   width: 100%;
-  padding-left: 10px;
   border-color: grey;
   border-width: 0.25px;
   background-color: grey;
@@ -154,15 +157,20 @@ a:link {
   /* NOTE: this keeps the header fixed when scrolling. */
   /* NOTE: The above code outlines shadow of header;location of text */
 }
-
-.nav-2 a {
-  color: white;
-  margin-left: 10%;
-  padding-left: 20px;
-  font-family: "raleway";
-  font-weight: 700;
+.list-inline-nav-2 {
+  float: right;
+  margin-right: 22%;
+}
+.nav-2-li {
+  margin-left: 35px;
+  list-style-type: none;
   display: inline;
-  float: left;
+  color: white;
+}
+.nav-2 a {
+  list-style-type: none;
+  display: inline;
+  color: white;
 }
 
 /* NOTE: The below is for the image/text. */
@@ -174,14 +182,14 @@ a:link {
 
 h3 {
   color: #EF6248;
-  font-family: "raleway";
+  font-family:'raleway', Arial, sans-serif;
   font-size: 40px;
   font-weight: 600;
   margin-left: 30px;
 }
 .header {
   color: white;
-  font-family: "raleway";
+  font-family:'raleway', Arial, sans-serif;
   font-size: 40px;
   position: absolute;
   bottom: 60%;
@@ -191,11 +199,11 @@ h3 {
 /* NOTE: The below is for the 3 'columns' */
 .para1 {
   color: white;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   line-height: 40px;
   font-size: 20px;
   margin-left: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   bottom: 30%;
   position: absolute;
   z-index: 1;
@@ -205,71 +213,32 @@ h3 {
 .title {
   color: #EF6248;
   margin-top: 15px;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   font-weight: 550;
 }
 
 .para {
   color: grey;
   font-size: 15px;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   font-weight: normal;
 }
 
 .columns {
   padding-top: 50px;
-  margin-left: 0px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .column1 {
-
-  max-height: 460px;
-  max-width: 400px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 15px;
+  max-height:   460px;
+  max-width:    400px;
+  margin-left:  10px;
+  margin-right: 10px;
+  padding: 20px;
   text-align: center;
   display: inline-table;
 }
 .column1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  /* NOTE: adds a deeper shadow when hovering over */
-}
-
-.column2 {
-  max-height: 160px;
-  max-width: 400px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 10px;
-  padding-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 15px;
-  text-align: center;
-  display: inline-table;
-}
-.column2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  /* NOTE: adds a deeper shadow when hovering over */
-}
-
-.column3 {
-  max-height: 160px;
-  max-width: 450px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 15px;
-  text-align: center;
-  display: inline-table;
-}
-.column3:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   /* NOTE: adds a deeper shadow when hovering over */
 }
@@ -281,42 +250,39 @@ h3 {
   overflow: hidden;
 }
 .step-one-img:hover {
-    width:60px;
+  transform: scale(1.1);
 }
 
 .step-one-title {
-    color: grey;
-    font-family: "raleway";
-    margin-left: 250px;
-    padding-top: 70px;
+  color: grey;
+  font-family: 'raleway', Arial, sans-serif;
+  margin-left: 250px;
+  padding-top: 70px;
 }
 
 .step-one-para {
   color: grey;
   font-size: 15px;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   font-weight: normal;
   margin-left: 250px;
   padding-bottom: 50px;
 }
 
-.step-two-img {
-  float: none;
-}
 .step-two-img:hover {
-    width:60px;
+  transform: scale(1.1);
 }
 
 .step-two-title {
   color: grey;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   margin-left: 900px;
 }
 
 .step-two-para {
   color: grey;
   font-size: 15px;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   font-weight: normal;
   margin-left: 960px;
 }
@@ -327,12 +293,12 @@ h3 {
   overflow: hidden;
 }
 .step-three-img:hover {
-    width:60px;
+  transform: scale(1.1);
 }
 
 .step-three-title {
   color: grey;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   margin-left: 250px;
   padding-top: 30px;
 }
@@ -340,7 +306,7 @@ h3 {
 .step-three-para {
   color: grey;
   font-size: 15px;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   font-weight: normal;
   margin-left: 250px;
   padding-bottom: 100px;
@@ -492,7 +458,7 @@ fieldset {
   color: #EF6248;
   cursor: pointer;
   font-size: 14px !important;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
   right: 20px;
   bottom: 20px;
 }
@@ -520,7 +486,7 @@ fieldset {
   width: 50%;
   outline: none;
   font-size: 14px !important;
-  font-family: "raleway";
+  font-family: 'raleway', Arial, sans-serif;
 }
 
 .form-wrapper input[type="radio"]{
@@ -572,7 +538,15 @@ fieldset {
 }
 
 footer {
-  padding-top: 550px;
-  padding-left: 30px;
+  margin-top: 550px;
+  margin-left: 30px;
   float: left;
 }
+
+/* NOTE:
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}
+ */
